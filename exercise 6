@@ -1,0 +1,14 @@
+6. Online learning vs. Stochastic Gradient Descent (SGD):
+    ◦ An extreme version of gradient descent is to use a mini-batch size of just 1. This procedure is known as online, on-line, or incremental learning.
+    ◦ Name one advantage and one disadvantage of online learning, compared to stochastic gradient descent with a mini-batch size of, say, 20 
+
+advantage of on-line learning 
+    fater adaptation
+    works with streaming data
+disadvantage of on-line learning
+    noisy update
+    more random shift and less stable
+
+It fails to use the power of Vectorization(very slower)
+
+If you use a batch size of 1, you lose this parallel processing speed. You are forcing the computer to do 20 separate, slow calculations instead of 1 fast, big calculation. This makes your total training time much longer.because GPU are designed to do huge blocks
