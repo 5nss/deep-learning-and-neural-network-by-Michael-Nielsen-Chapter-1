@@ -1,0 +1,14 @@
+5.
+One-dimensional gradient descent:
+    ◦ I explained gradient descent when C is a function of two variables, and when it's a function of more than two variables.
+    ◦ What happens when C is a function of just one variable?.
+    ◦ Can you provide a geometric interpretation of what gradient descent is doing in the one-dimensional case?
+
+one dimentional means Cost function depends only on one variable either w or x in (w.x+b) C => C(x)
+gradient in one dimention
+now gradient is not a vector 
+it is just dC/dx
+it is the slope of the curve at that instant
+
+slope - +ve -> move left
+slope - -ve -> move right
