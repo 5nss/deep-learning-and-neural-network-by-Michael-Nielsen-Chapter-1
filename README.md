@@ -1,5 +1,4 @@
 deep-learning-and-neural-network-by-Michael-Nielsen-Chapter-1
-A structured, from-scratch study of Chapter 1 of Neural Networks and Deep Learning by Michael Nielsen, covering perceptrons, sigmoid neurons, vectorization, and SGD.
 
 Chapter 1 – Using Neural Networks to Recognize Handwritten Digits
 
